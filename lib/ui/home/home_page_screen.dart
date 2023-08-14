@@ -18,7 +18,7 @@ class HomePageScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             DropdownButton<Locale>(
-              underline: const Text(''),
+              // underline: const Text(''),
               icon: const Icon(Icons.keyboard_arrow_down_outlined),
               value: Get.locale,
               onChanged: (locale) {
@@ -30,7 +30,7 @@ class HomePageScreen extends StatelessWidget {
             
             Container(
               padding: const EdgeInsets.all(10.0),
-              width: Get.width*0.9,
+              width: Get.width*0.8,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(5),

@@ -18,7 +18,6 @@ class LocalizationService extends Translations {
     },
   };
 
-  // Add a method to change the app's locale
   void changeLocale(Locale locale) {
     Get.updateLocale(locale);
   }

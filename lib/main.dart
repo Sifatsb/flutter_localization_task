@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'GetX Localization Example',
       translations: LocalizationService(),
       locale: const Locale('en', 'US'),
-      home: HomePageScreen(), // Change to the LanguageSelectionScreen
+      home: HomePageScreen(),
     );
   }
 }
